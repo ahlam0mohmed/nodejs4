@@ -1,0 +1,358 @@
+
+ .titel{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    background-color: black;
+    box-shadow: 0px 5px rgb(61, 60, 60);
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    width: 95%;
+    padding: 0px 30px 20px 30px;
+    
+}
+.titel img{
+    background-color: transparent;
+}
+.titel ul a{
+    text-decoration: none;
+    color: grey;
+
+}
+.titel p{
+    padding:0px;
+    margin: 0px;
+    height:80px;
+    top:0;
+
+}
+.titel p a{
+    text-decoration: none;
+    margin-top: 0px;
+    top: 0;
+    font-size: 80px;
+    font-style: italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    animation: A ease-in-out 5s  infinite alternate ;
+    
+}
+@keyframes A{
+    0% {
+        transform: rotate( 20deg);
+        position: relative;
+        font-family: cursive;
+        color: red;
+    }
+    20% {
+        transform: rotate(-15deg);
+        position: relative;
+        font-family:fantasy ;
+        color: orangered;
+    }
+    40% {
+        transform: rotate( 15deg);
+        position: relative;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: orange;
+    }
+    80% {
+        transform: rotate( -7deg);
+        position: relative;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: yellow;
+    }
+    100% {
+        transform: rotate( -3deg);
+        position: relative;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: yellowgreen;
+    }
+
+
+}
+.titel p :hover{
+    
+    font-size: 100px;
+    
+
+}
+.titel ul li :hover{
+    font-size: 30px;
+    color: tomato;
+}
+.titel .list ul{
+    list-style: none;
+}
+.titel .list ul li{
+    margin-left: 30px;
+    float: left;
+    
+    font-weight: bold;
+    font-style: italic;
+}
+.titel button{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+#d_body{
+    padding-top:30px ;
+    background-color: dimgray;
+}
+
+#d_body .home{
+    padding:10px;
+    text-align: center;
+    justify-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.home h1{
+    color: darkseagreen;
+    font-style: oblique;
+    
+}
+#d_body .home img{
+    border: 2px solid rgb(167, 68, 68);
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.home p{
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.prog{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.about{
+    
+    justify-items: center;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.about h1{
+    font-weight: bold;
+    font-size: 30px;
+    font-style: oblique;
+    color: rgb(56, 4, 78);
+}
+.sk_exp{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    margin-bottom: 30px;
+}
+.skill{
+    align-items: center;
+}
+.skill .d{
+    margin-bottom: 20px;
+}
+.skill progress{
+    height: 30px;
+    color: slateblue;
+}
+
+.exper{
+    align-items: center;
+    text-align: center;
+}
+
+.exper h6{
+    margin-bottom: 20px;
+    font-size: larger;
+}
+
+
+.ser{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+#ser{
+    color: tomato;
+}
+.ser .amimg{
+    width: 25%;
+    height: 200px;
+    margin: 20px;
+    border: 1px solid grey;
+    transition: ease-in-out .5s;
+    animation: imgs ease-in-out 2s  infinite alternate ;
+
+
+}
+
+@keyframes imgs{
+    0% {
+        transform: rotate( 10deg);
+        position: relative;
+        bottom: 30px;
+    }
+    20% {
+        transform: rotate(-10deg);
+        position: relative;
+        bottom: 25px;
+    }
+    40% {
+        transform: rotate( 10deg);
+        position: relative;
+        bottom: 20px;
+    }
+    80% {
+        transform: rotate( -5deg);
+        position: relative;
+        bottom: 10px;
+    }
+    100% {
+        transform: rotate( 0deg);
+        position: relative;
+        bottom: 0px;
+    }
+
+
+}
+.d_pall{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    font-weight: bold;
+}
+.d_p{
+    border: 2px solid grey;
+    width: 33%;
+    
+    
+    
+}
+
+.d_p img{
+    width: 100%;
+    height: 200px;
+}
+
+
+.con {
+    
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    padding-bottom: 50px;
+}
+.con h1{
+    font-size: 30px;
+    color: rgb(204, 44, 44);
+    
+}
+.con h3{
+    margin-top: 20px;
+    font-family:fantasy ;
+    background-color: orange;
+    color: darkblue;
+}
+.con form{
+    width: 40%;
+    padding: 20px 5% 20px 5%;
+    margin-left: 30%;
+    display: block;
+    justify-content: center;
+    justify-items: center;
+    background-color: saddlebrown;
+}
+.con form input{
+    width: 100%;
+    height: 30px;
+    display: block;
+    margin-bottom: 20px;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 30px;
+}
+textarea{
+    width: 100%;
+}
+#sub{
+    background-color: rgb(5, 112, 112);
+    border-radius: 0px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius:10px ;
+    font-size: 20px;
+    font-weight: bold;
+}
+.con ul{
+    list-style: none;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    align-items: center;
+}
+.con ul li{
+    align-items: center;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.con a{
+    font-size: 20px;
+}
+.con img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+h1{
+    font-size: 50px;
+    text-decoration:wavy rgb(192, 63, 63) underline;
+}
+h2{
+    font-family: cursive;
+    color: rgb(9, 170, 95);
+    font-weight: bolder;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    width: 90%;
+    padding:10px 50px 20px 60px;
+    background-color: black;
+    color: ghostwhite;
+}
+footer a{
+    color: red;
+}
+footer img{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    float: right;
+    margin-right: 10px;
+}
+footer div{
+    align-items: center;
+}
